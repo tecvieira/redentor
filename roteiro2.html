@@ -4,6 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Controlador FRT</title>
+    <style>
+         body{
+            padding: 15px;
+           
+        }
+        table{
+            border-collapse: collapse;
+            max-width: 400px;
+            border: 1px solid black;
+           
+        }
+       
+        header{
+        background-image: linear-gradient(to bottom, rgb(0, 19, 128), white);
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+    }
+        header > h1{
+            color: white;
+        }
+        header > p{
+            color: red;
+            font-weight: bold;
+        }
+       
+
+        tr, td, th{
+            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th{
+            background-color: lightblue;
+        }
+        a{
+        color: red;
+        text-decoration: none;
+    }
+    a:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+    </style>
 </head>
 <body>
     <header>
@@ -96,16 +139,401 @@
                     <td> SAÍDA 7</td>
                 </tr>
                 <tr>
-                    <td>L01</td>
+                    <td>L014</td>
                     <td>636</td>
-                    <td>SAENS PENA VIA MEIER</td>
+                    <td>SAENS PENA - MEIER</td>
                 </tr>
+                <tr>
+                    <td>L015</td>
+                    <td>636</td>
+                    <td>TAQUARA</td>
+                </tr>
+                <tr>
+                    <td>L016</td>
+                    <td>636</td>
+                    <td>PRAÇA SECA</td>
+                </tr>
+                <tr>
+                    <td>L017</td>
+                    <td>691</td>
+                    <td>MEIER - DIAS DA CRUZ</td>
+                </tr>
+                <tr>
+                    <td>L018</td>
+                    <td>691</td>
+                    <td>ALVORADA - BARRASHOPPING</td>
+                </tr>
+                <tr>
+                    <td>L019</td>
+                    <td>693</td>
+                    <td>MEIER - EXPRESSO</td>
+                </tr>
+                <tr>
+                    <td>L020</td>
+                    <td>693</td>
+                    <td>ALVORADA - EXPRESSO</td>
+                </tr>
+                <tr>
+                    <td>L021</td>
+                    <td>861</td>
+                    <td>CURICICA - LARGO DO REMI</td>
+                </tr>
+                <tr>
+                    <td>L022</td>
+                    <td>861</td>
+                    <td>RIO DAS PEDRAS - GARDENIA AZUL</td>
+                </tr>
+                <tr>
+                    <td>L023</td>
+                    <td>862</td>
+                    <td>BARRASHOPPING</td>
+                </tr>
+                <tr>
+                    <td>L024</td>
+                    <td>862</td>
+                    <td>RIO DAS PEDRAS</td>
+                </tr>
+                <tr>
+                    <td>L025</td>
+                    <td>863</td>
+                    <td>BARRA DA TIJUCA</td>
+                </tr>
+                <tr>
+                    <td>L026</td>
+                    <td>863</td>
+                    <td>RIO DAS PEDRAS</td>
+                </tr>
+                <tr>
+                    <td>L027</td>
+                    <td>863</td>
+                    <td>BARRASHOPPING</td>
+                </tr>
+                <tr>
+                    <td>L028</td>
+                    <td>863</td>
+                    <td>PASSARELA DA BARRA</td>
+                </tr>
+                <tr>
+                    <td>L029</td>
+                    <td>829</td>
+                    <td>GARDENIA AZUL - FREGUESIA</td>
+                </tr>
+                <tr>
+                    <td>L030</td>
+                    <td>306</td>
+                    <td>CASTELO - CENTRAL</td>
+                </tr>
+                <tr>
+                    <td>L031</td>
+                    <td>306</td>
+                    <td>PRAÇA SECA - PAU FERRO</td>
+                </tr>
+                <tr>
+                    <td>L032</td>
+                    <td>610</td>
+                    <td> DEL CASTILHO - NOVA AMERICA</td>
+                </tr>
+                <tr>
+                    <td>L033</td>
+                    <td>610</td>
+                    <td>PRAÇA SECA - TAQUARA</td>
+                </tr>
+                <tr>
+                    <td>L034</td>
+                    <td>613</td>
+                    <td>DEL CASTILHO - NOVA AMERICA</td>
+                </tr>
+                <tr>
+                    <td>L035</td>
+                    <td>613</td>
+                    <td>RIOCENTRO - PARQUE OLIMPICO</td>
+                </tr>
+                <tr>
+                    <td>L036</td>
+                    <td>614</td>
+                    <td>DEL CASTILHO - METRO</td>
+                </tr>
+                <tr>
+                    <td>L037</td>
+                    <td>614</td>
+                    <td>ALVORADA</td>
+                </tr>
+                <tr>
+                    <td>L038</td>
+                    <td>692</td>
+                    <td>ALVORADA - BARRASHOPPING</td>
+                </tr>
+                <tr>
+                    <td>L039</td>
+                    <td>692</td>
+                    <td>MEIER - NORTE SHOPPING</td>
+                </tr>
+                <tr>
+                    <td>L040</td>
+                    <td>692</td>
+                    <td>ALVORADA - EXPRESSO</td>
+                </tr>
+                <tr>
+                    <td>L041</td>
+                    <td>692</td>
+                    <td>MEIER - EXPRESSO</td>
+                </tr>
+                <tr>
+                    <td>L042</td>
+                    <td>692</td>
+                    <td>FREGUESIA</td>
+                </tr>
+                <tr>
+                    <td>L043</td>
+                    <td>306</td>
+                    <td>TAUARA - PAU FERRO</td>
+                </tr>
+                <tr>
+                    <td>L044</td>
+                    <td>862</td>
+                    <td>JOATINGA</td>
+                </tr>
+                <tr>
+                    <td>L045</td>
+                    <td>610</td>
+                    <td>TAQUARA - PAU FERRO</td>
+                </tr>
+                <tr>
+                    <td>L046</td>
+                    <td>613</td>
+                    <td>PASSARELA DA GARDENIA</td>
+                </tr>
+                <tr>
+                    <td>L047</td>
+                    <td>315</td>
+                    <td>RECREIO - L. AMARELA</td>
+                </tr>
+                <tr>
+                    <td>L048</td>
+                    <td>315</td>
+                    <td>CENTRAL - L. AMARELA</td>
+                </tr>
+                <tr>
+                    <td>L049</td>
+                    <td>SP368</td>
+                    <td>ITUVERAVA - H. CARD. FONTES</td>
+                </tr>
+                <tr>
+                    <td>L050</td>
+                    <td>353</td>
+                    <td>MADUREIRA - BRT</td>
+                </tr>
+                <tr>
+                    <td>L051</td>
+                    <td>636</td>
+                    <td>MADUREIRA - BRT</td>
+                </tr>
+                <tr>
+                    <td>L052</td>
+                    <td>693</td>
+                    <td>EXPRESSO - L. AMARELA</td>
+                </tr>
+                <tr>
+                    <td>L053</td>
+                    <td>613</td>
+                    <td>VARGEM GRANDE - RIOCENTRO</td>
+                </tr>
+                <tr>
+                    <td>L054</td>
+                    <td>361</td>
+                    <td>CASTELO - L. AMARELA</td>
+                </tr>
+                <tr>
+                    <td>L055</td>
+                    <td>390</td>
+                    <td>CURICICA</td>
+                </tr>
+                <tr>
+                    <td>L056</td>
+                    <td>390</td>
+                    <td>CANDELARIA - CENTRAL</td>
+                </tr>
+                <tr>
+                    <td>L057</td>
+                    <td>380</td>
+                    <td>CURICICA - L. AMARELA</td>
+                </tr>
+                <tr>
+                    <td>L058</td>
+                    <td>380</td>
+                    <td>CANDELARIA - CENTRAL</td>
+                </tr>
+                <tr>
+                    <td>L059</td>
+                    <td>611</td>
+                    <td>CAMORIM - MERCK</td>
+                </tr>
+                <tr>
+                    <td>L060</td>
+                    <td>611</td>
+                    <td>DEL CASTILHO - NOVA AMERICA</td>
+                </tr>
+                <tr>
+                    <td>L061</td>
+                    <td>880</td>
+                    <td>RIO DAS PEDRAS</td>
+                </tr>
+                <tr>
+                    <td>L062</td>
+                    <td>880</td>
+                    <td>ALVORADA</td>
+                </tr>
+                <tr>
+                    <td>L063</td>
+                    <td>600</td>
+                    <td>TAQUARA - BOIUNA</td>
+                </tr>
+                <tr>
+                    <td>L064</td>
+                    <td>600</td>
+                    <td>SAENS PENA</td>
+                </tr>
+                <tr>
+                    <td>L065</td>
+                    <td>601</td>
+                    <td>TAQUARA - CAPELA</td>
+                </tr>
+                <tr>
+                    <td>L066</td>
+                    <td>601</td>
+                    <td>SAENS PENA - METRO S. FCO. XAVIER</td>
+                </tr>
+                <tr>
+                    <td>L067</td>
+                    <td>SP600</td>
+                    <td>HOSP. CARD. FONTES</td>
+                </tr>
+                <tr>
+                    <td>L068</td>
+                    <td>SP600</td>
+                    <td>TAQUARA - CIRCULAR</td>
+                </tr>
+                <tr>
+                    <td>L069</td>
+                    <td>SP613</td>
+                    <td>DEL CASTILHO - NOVA AMERICA</td>
+                </tr>
+                <tr>
+                    <td>L070</td>
+                    <td>SP613</td>
+                    <td>RIOCENTRO</td>
+                </tr>
+                <tr>
+                    <td>L071</td>
+                    <td>552</td>
+                    <td>ALVORADA - INTEGRADA 02</td>
+                </tr>
+                <tr>
+                    <td>L072</td>
+                    <td>552</td>
+                    <td>ALVORADA - INTEGRADA 02</td>
+                </tr>
+                <tr>
+                    <td>L072</td>
+                    <td>553</td>
+                    <td>RIO SUL - INTEGRADA 02</td>
+                </tr>
+                <tr>
+                    <td>L073</td>
+                    <td>553</td>
+                    <td>RECREIO - INTEGRADA 08</td>
+                </tr>
+                <tr>
+                    <td>L074</td>
+                    <td>553</td>
+                    <td>RIO SUL - INTEGRADA 08</td>
+                </tr>
+                <tr>
+                    <td>L075</td>
+                    <td>554</td>
+                    <td>RIO SUL - INTEGRADA 08</td>
+                </tr>
+                <tr>
+                    <td>L076</td>
+                    <td>554</td>
+                    <td>PIABAS - INTEGRADA 08</td>
+                </tr>
+                <tr>
+                    <td>L077</td>
+                    <td>SP390</td>
+                    <td>FREGUESIA - TRES RIOS</td>
+                </tr>
+                <tr>
+                    <td>L078</td>
+                    <td>SP600</td>
+                    <td>FREGUESIA - TRES RIOS</td>
+                </tr>
+                <tr>
+                    <td>L079</td>
+                    <td>SP601</td>
+                    <td>FREGUESIA - TRES RIOS</td>
+                </tr>
+                <tr>
+                    <td>L080</td>
+                    <td>611</td>
+                    <td>RIOCENTRO - MERCK</td>
+                </tr>
+                <tr>
+                    <td>L081</td>
+                    <td>693</td>
+                    <td>ALVORADA - DIRETO</td>
+                </tr>
+                <tr>
+                    <td>L082</td>
+                    <td>880</td>
+                    <td>ILHA PURA - EXPRESSO</td>
+                </tr>
+                <tr>
+                    <td>L083</td>
+                    <td>880</td>
+                    <td>RECREIO - EXPRESSO</td>
+                </tr>
+                <tr>
+                    <td>L084</td>
+                    <td>353</td>
+                    <td>TERMINAL GENTILEZA</td>
+                </tr>
+                <tr>
+                    <td>L085</td>
+                    <td>353</td>
+                    <td>T. GENTILEZA - RODOVIARIA </td>
+                </tr>
+                <tr>
+                    <td>L086</td>
+                    <td>353</td>
+                    <td>PRAÇA SECA - IPASE</td>
+                </tr>
+                <tr>
+                    <td>L087</td>
+                    <td>353</td>
+                    <td>TANQUE</td>
+                </tr>
+                <tr>
+                    <td>L088</td>
+                    <td>353</td>
+                    <td>GARDENIA AZUL</td>
+                </tr>
+                <tr>
+                    <td>L089</td>
+                    <td>692</td>
+                    <td>ALVORADA</td>
+                </tr>
+                
+
 
 
 
             </tbody>
         </table>
     </main>
+    <footer>
+        <h2>Para outro controlador <a href="index.html">clique aqui</a>.</h2>
+    </footer>
     
 </body>
 </html>
