@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+    padding: 15px;
+    max-width: 400px;  
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+header{
+background-image: linear-gradient(to bottom, rgb(0, 19, 128), white);
+font-family: Arial, Helvetica, sans-serif;
+padding: 15px;
+}
+
+header > h1{
+    color: white;
+    padding-left: 5px;
+}
+
+header > p{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+
+tr, td, th{
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th{
+    background-color: lightblue;
+    padding: 0px 5px 0px 5px;
+}
+
+a{
+color: red;
+text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
