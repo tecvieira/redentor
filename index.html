@@ -10,6 +10,18 @@
         padding: 0px;
         margin: 0px;
     }
+
+    #resultado{
+        color: rgb(255, 217, 0);
+        background-color: rgb(252, 8, 0);
+        max-width: 450px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        
+    }
+        
+        
     a{
         color: red;
         text-decoration: none;
@@ -71,6 +83,7 @@
     </style>
 </head>
 <body>
+    <div id="resultado"></div>
     <header>
         <h1>Roteiros Redentor</h1>
         <p>Resumo das principais linhas.</p>
@@ -123,8 +136,10 @@
         <div align=center><a href='https://contador.s12.com.br'><img src='https://contador.s12.com.br/img-Bb5bc4zx2by70yZ2-5.gif' border='0' alt='contador gratuito de visitas'></a><script type='text/javascript' src='https://contador.s12.com.br/ad.js?id=Bb5bc4zx2by70yZ2'></script></div>
     </footer>
     <script>
-        var nome = window.prompt('Qual o seu nome?')
-        window.alert('Seja muito bem vindo(a), ' + nome.toUpperCase())
+        var nome = window.prompt('Qual o seu nome?');
+        var resultadoDiv = document.getElementById('resultado');
+        resultadoDiv.innerHTML = `Olá, <strong>${nome.toUpperCase()}</strong>!<br> Seja muito bem vindo(a)`;
+        
     </script>
 </body>
 </html>
