@@ -11,24 +11,20 @@ table{
 }
 
 header{
-background-image: 
-linear-gradient(to top, blue, rgb(65, 236, 213));
+background-image: linear-gradient(to bottom, rgb(0, 19, 128), white);
 font-family: Arial, Helvetica, sans-serif;
 padding: 15px;
-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.801);
 }
 
 header > h1{
     color: white;
     padding-left: 5px;
-    text-align: center;
 }
 
 header > p{
-    color: rgb(255, 255, 255);
+    color: red;
     font-weight: bold;
     text-align: center;
-    
 }
 
 #rodoviario{
