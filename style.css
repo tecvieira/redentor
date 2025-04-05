@@ -43,6 +43,10 @@ header > p{
     
 }
 
+.container > h2{
+    color: red;
+}
+
 button{
     background-color: rgb(255, 10, 2);
     border-radius: 5px;
