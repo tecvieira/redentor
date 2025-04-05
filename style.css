@@ -45,12 +45,16 @@ header > p{
 
 .container > h2{
     color: red;
+    background-color: rgba(255, 255, 0, 0.74);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 button{
     background-color: rgb(255, 10, 2);
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
+    margin: 5px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
 }
     
