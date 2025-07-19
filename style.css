@@ -25,10 +25,12 @@ header{
     }
 
 header > h1{
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 10px;
 }
 
 header > p{
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 20px;
 }
 
@@ -36,16 +38,15 @@ header > p{
     display: flex;
     background-color: rgb(255, 255, 255);
     flex-flow: row wrap; 
-    flex-direction: column; 
-    align-items: center;
+    flex-direction: column;
     text-align: center;
     padding: 10px;
     
 }
 
 .container > h2{
-    color: red;
-    background-color: rgba(255, 255, 0, 0.74);
+    color: rgb(229, 255, 0);
+    background-color: rgb(0, 30, 255);
     padding: 10px;
     border-radius: 10px;
 }
@@ -53,8 +54,8 @@ header > p{
 button{
     background-color: rgb(255, 10, 2);
     border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
+    padding: 3px;
+    margin: 3px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
 }
     
@@ -70,8 +71,20 @@ button:hover{
 div{
    padding-top: 20px;
 }
+#ajustaitens{
+    display: flex;
+    justify-content: space-around;  
+}
+#ajustaitens > img{
+    align-self: center;
+}
+
+#titulo{
+    padding-bottom: 5px;
+}
 
 footer{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 20px;
     color: white;
