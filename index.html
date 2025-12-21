@@ -1,81 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roteiros Redentor</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos adicionados para garantir responsividade e layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .dimelthoz {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .botoes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #e0e0e0;
+        }
+
+        header,
+        main,
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <div>
             <h1>Roteiros Redentor</h1>
             <p><strong>Encontre a linha desejada</strong></p>
         </div>
-        <div id="esplica-cabecalho">
-             <p>Escolha o tipo de contolador <br> Selecione o serviço.</p>
+        <div id="explica-cabecalho">
+            <p>Escolha o tipo de controlador <br> Selecione o serviço.</p>
         </div>
-        
+
     </header>
     <main class="base-fundo">
         <h3>Controladores Dimelthoz:</h3>
         <div class="dimelthoz">
             <div>
-                <img src="image/antigo100.jpg" alt="controldor dl172a">
+                <img src="image/antigo100.jpg" alt="controlador dl172a">
             </div>
-             <div>
-                <img src="image/teclado100.jpg" alt="controldor dl172b">
-            </div>
-           
             <div>
-                <img src="image/DL172B100.jpg" alt="controldor dl172b">
+                <img src="image/teclado100.jpg" alt="controlador dl172b">
             </div>
-           
+
+            <div>
+                <img src="image/DL172B100.jpg" alt="controlador dl172b">
+            </div>
+
         </div>
-         <p>Selecione o serviço:</p>
+        <p>Selecione o serviço:</p>
         <div class="botoes">
-            
-            <button><a href="roteiro1.html">Urbano</a></button>
-            <button><a href="frescao.html">Rodoviário</a></button>
+
+            <a href="roteiro1.html" class="btn">Urbano</a>
+            <a href="frescao.html" class="btn">Rodoviário</a>
         </div>
         <div class="dimelthoz">
             <div>
-                <img src="image/tablet-100.jpg" alt="controldor dl172a">
+                <img src="image/tablet-100.jpg" alt="controlador dl172a">
             </div>
         </div>
         <div class="botoes">
-            <button><a href="roteiro3.html">Urbano</a></button>
+            <a href="roteiro3.html" class="btn">Urbano</a>
         </div>
         <br>
         <h3>Controlador FRT:</h3>
         <div class="dimelthoz">
             <div>
-                <img src="image/frt100.jpg" alt="controldor FRT">
+                <img src="image/frt100.jpg" alt="controlador FRT">
             </div>
         </div>
         <div class="botoes">
-            <button><a href="roteiro2.html">Urbano</a></button>
+            <a href="roteiro2.html" class="btn">Urbano</a>
         </div>
         <br>
-         <h3>Controlador Mobitec:</h3>
+        <h3>Controlador Mobitec:</h3>
         <div class="dimelthoz">
             <div>
-                <img src="image/mobitec100.jpg" alt="controldor Mobitec">
+                <img src="image/mobitec100.jpg" alt="controlador Mobitec">
             </div>
         </div>
         <div class="botoes">
-            <button><a href="rotriro4.html">Urbano</a></button>
+            <a href="rotriro4.html" class="btn">Urbano</a>
         </div>
         <br>
-         <h3>Controlador VEX:</h3>
+        <h3>Controlador VEX:</h3>
         <div class="dimelthoz">
             <div>
-                <img src="image/vex-100.jpg" alt="controldor VEX">
+                <img src="image/vex-100.jpg" alt="controlador VEX">
             </div>
         </div>
         <div class="botoes">
-            <button><a href="roteiro1.html">Urbano</a></button>
-            <button><a href="frescao.html">Rodoviário</a></button>
+            <a href="roteiro1.html" class="btn">Urbano</a>
+            <a href="frescao.html" class="btn">Rodoviário</a>
         </div>
         <br>
     </main>
@@ -84,6 +141,7 @@
         <img src="image/qrcode100.png" alt="site com itinerários redentor">
         <p>Powered by TecVander</p>
     </footer>
-    
+
 </body>
+
 </html>
